@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    <img id="img" src="https://images.sk-static.com/images/media/img/col3/20240828-154808-521183.jpg"><br>
+    <button id="button">SHOW</button>
+    <script>
+        const imageButton=document.getElementById("img");
+        const myButton=document.getElementById("button");
+        imageButton.style.display="none";
+        myButton.addEventListener("click",(event)=>{
+            if(imageButton.style.display==="none"){
+                imageButton.style.display="block";
+                myButton.textContent="HIDE";
+            }
+            else{
+                imageButton.style.display="none";
+                myButton.textContent="SHOW";
+            }
+        });
+    </script>
+</body>
+</html>
