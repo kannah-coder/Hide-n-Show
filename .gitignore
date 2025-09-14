@@ -1,0 +1,24 @@
+
+---
+
+### 📄 `.gitignore`
+```gitignore
+# Node modules (if later used)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
